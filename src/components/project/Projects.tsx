@@ -38,7 +38,7 @@ const Card = ({ tech, scrollYProgress }) => {
                 className="absolute w-full h-11/12 backface-hidden bg-opacity-10 rounded-lg shadow-lg p-5 border-2 border-gray-300"
                 style={{backgroundColor: 'rgba(255, 255, 255, 0.1)'}}>
                 <h3 className="text-4xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-600">{tech.name}</h3>
-                {tech.description.map((line, index) => (
+                {tech.description.map((line: any, index: any) => (
                     <p key={index} className="text-white text-lg mb-2">{line}</p>
                 ))}
             </div>
