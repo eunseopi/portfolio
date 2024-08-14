@@ -11,9 +11,9 @@ const logos: Record<Skill, string> = {
 };
 
 const SkillDetails: Record<Skill, string> = {
-    React: '적을 예정',
-    JavaScript: '적을 예정',
-    HTMLCSS: '적을 예정',
+    React: '',
+    JavaScript: '',
+    HTMLCSS: '',
 };
 
 const otherSkills = ['NextJS', 'TypeScript', 'TailwindCSS'] as const;
